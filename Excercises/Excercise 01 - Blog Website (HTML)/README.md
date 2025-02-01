@@ -1,7 +1,7 @@
-# Blog Website Assignment - Sheryians Coding School
+# HTML Website Assignment - Sheryians Coding School
 
 ## Overview
-This project is a simple **HTML Blog Website** showcasing various HTML tags and elements. It was created as the first assignment in the **Job Ready AI Powered Cohort** by **Sheryians Coding School**.
+This project is a simple **HTML Website** showcasing various HTML tags and elements. It was created as the first assignment in the **Job Ready AI Powered Cohort** by **Sheryians Coding School**.
 
 ## Features
 The webpage includes the following sections:
@@ -30,10 +30,9 @@ The webpage includes the following sections:
 2. Open the `index.html` file in any modern browser (Chrome, Firefox, Edge, etc.).
 
 ## Acknowledgments
-This project was created as part of the **Job Ready AI Powered Cohort** by **Sheryians Coding School**. Special thanks to the mentors and instructors for guiding us through HTML basics.
+This project was created as part of the **Job Ready AI Powered Cohort** by **[Sheryians Coding School](https://www.sheryians.com)**. Special thanks to the mentors and instructors for guiding us through HTML basics.
 
 ---
 
-### Author: Aman Shrivas
-**Date:** 2023
+### Author: [Aman Shrivas](www.instagram.com/huntethan144)
 
