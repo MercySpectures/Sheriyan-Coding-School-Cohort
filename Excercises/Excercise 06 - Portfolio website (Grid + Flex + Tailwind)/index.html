@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercy's Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Poppins;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <!-- Use the correct Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="wrapper w-full px-20">
+        <!-- Navbar -->
+        <nav class="w-full py-10 flex justify-between items-center">
+            <h1 class="text-l font-medium">Mercy's Portfolio</h1>
+            <ul class="list-none text-l font-medium flex gap-5">
+                <li class="opacity-100 hover:opacity-100"><a href="#">Home</a></li>
+                <li class="opacity-50 hover:opacity-100"><a href="#">Projects</a></li>
+                <li class="opacity-50 hover:opacity-100"><a href="#">Social</a></li>
+                <li class="opacity-50 hover:opacity-100"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Hero -->
+        <section id="hero" class="w-full h-full flex flex-col pt-5 justify-start items-start">
+            <div id="text" class="w-full h-fit flex justify-between items-center">
+                <div class="left w-full">
+                    <p class="text-2xl font-medium">Hello, I am</p>
+                    <h2 class="text-6xl font-medium">Mercy</h2>
+                </div>
+                <div class="right w-full h-20 flex gap-2 justify-end items-center">
+                    <span class="time text-[12px] opacity-50 font-medium">[01:43 PM]</span>
+                    <span class="line w-10 h-[1px] bg-black"></span>
+                    <span class="role text-l font-medium">Aspiring Full Stack Developer</span>
+                </div>
+            </div>
+            <div class="heroImage pt-10 w-full">
+                <img class="w-full" src="./assets/two.jpg" alt="">
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="w-3/4 m-auto h-screen flex flex-col gap-10 justify-center items-center relative">
+            <h1 class="text-4xl font-medium">[I design and buiild experiences]</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, dolorem sunt aliquam magni corporis vitae distinctio suscipit ducimus voluptatibus dignissimos excepturi nemo expedita inventore voluptas qui autem quo nam itaque.</p>
+            <img class="w-20 absolute top-[200px] -left-10 " src="./assets/fig.png" alt="figma icon">
+            <span class="w-40 h-20 absolute top-[200px] -left-20 bg-purple-800 rounded-full blur-3xl opacity-50 mix-blend-multiply"></span> 
+            <img class="w-20 absolute top-[200px] -right-10" src="./assets/wifi.png" alt="wifi icon"> 
+            <span class="w-40 h-40 absolute top-[180px] -right-20 bg-orange-800 rounded-full blur-3xl opacity-50 mix-blend-multiply"></span> 
+            <img class="w-20 absolute bottom-[120px] left-[180px]" src="./assets/paint.png" alt="paint icon"> 
+            <span class="w-20 h-20 absolute bottom-[120px] left-[180px] bg-red-800 rounded-full blur-2xl opacity-50 mix-blend-multiply"></span> 
+            <img class="w-20 absolute bottom-[120px] right-[180px] transform -translate-x-1/2" src="./assets/pc.png" alt="pc icon"> 
+            <span class="w-20 h-20 absolute bottom-[120px] right-[220px] bg-blue-800 rounded-full blur-2xl opacity-50 mix-blend-multiply"></span> 
+        </section>
+
+        <!-- Beginning -->
+        <section id="beginning" class="py-10 w-full h-full bg-white">
+            <div class="title w-full flex justify-start items-center gap-5 py-5  sticky top-0 bg-white">
+                <h1 class="year text-5xl font-medium">2024</h1>
+                <span class="line w-20 h-[1px] bg-black"></span>
+                <h1 class="heading text-5xl font-medium opacity-50">The Beginning</h1>
+            </div>
+            <div class="images w-full flex gap-10">
+                <div class="col1 flex flex-col gap-10">
+                    <img class="h-100" src="./assets/one.jpg" alt="">
+                    <img src="./assets/two.jpg" alt="">
+                </div>
+                <div class="col2 flex flex-col gap-10 mt-20">
+                    <img src="./assets/three.jpg" alt="">
+                    <img src="./assets/four.jpg" alt="">
+                </div>
+                <div class="col3 flex flex-col gap-10 mt-10">
+                    <img src="./assets/five.jpg" alt="">
+                    <img src="./assets/six.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Escalation -->
+        <section id="escalation" class="py-10 w-full h-full bg-white">
+            <div class="title w-full flex justify-start items-center gap-5 py-5  sticky top-0 bg-white">
+                <h1 class="year text-5xl font-medium">2024</h1>
+                <span class="line w-20 h-[1px] bg-black"></span>
+                <h1 class="heading text-5xl font-medium opacity-50">Escalation</h1>
+            </div>
+            <div class="images w-full flex gap-10">
+                <div class="col1 flex flex-col gap-10">
+                    <img class="h-100" src="./assets/one.jpg" alt="">
+                    <img src="./assets/two.jpg" alt="">
+                </div>
+                <div class="col2 flex flex-col gap-10 mt-20">
+                    <img src="./assets/three.jpg" alt="">
+                    <img src="./assets/four.jpg" alt="">
+                </div>
+                <div class="col3 flex flex-col gap-10 mt-10">
+                    <img src="./assets/five.jpg" alt="">
+                    <img src="./assets/six.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="about" class="w-full m-auto h-screen flex flex-col gap-10 justify-center items-center relative bg-[url(./assets/bg.jpg)] bg-no-repeat bg-center bg-cover">
+            <h1 class="text-4xl font-medium">[I am great at]</h1>
+            <div class="w-full px-40 techLogo flex flex-wrap justify-center items-center gap-10">
+                <span class="w-80 h-80 absolute bottom-[120px] right-[180px] bg-green-100 rounded-full blur-3xl opacity-40 mix-blend-multiply"></span> 
+                <span class="w-80 h-80 absolute bottom-[120px] left-[180px] bg-red-100 rounded-full blur-3xl opacity-40 mix-blend-multiply"></span> 
+                <img class="w-[50px]" src="./assets/html.png" alt="html logo">
+                <img class="w-[50px]" src="./assets/css-3.png" alt="css logo">
+                <img class="w-[50px]" src="./assets/physics.png" alt="react logo">
+                <img class="w-[50px]" src="./assets/node-js.png" alt="node logo">
+                <img class="w-[50px]" src="./assets/postgre.png" alt="postgrresql logo">
+                <img class="w-[50px]" src="./assets/html.png" alt="html logo">
+                <img class="w-[50px]" src="./assets/css-3.png" alt="css logo">
+                <img class="w-[50px]" src="./assets/physics.png" alt="react logo">
+                <img class="w-[50px]" src="./assets/node-js.png" alt="node logo">
+                <img class="w-[50px]" src="./assets/postgre.png" alt="postgrresql logo">
+                <img class="w-[50px]" src="./assets/html.png" alt="html logo">
+                <img class="w-[50px]" src="./assets/css-3.png" alt="css logo">
+                <img class="w-[50px]" src="./assets/physics.png" alt="react logo">
+                <img class="w-[50px]" src="./assets/node-js.png" alt="node logo">
+                <img class="w-[50px]" src="./assets/postgre.png" alt="postgrresql logo">
+            </div>
+        </section>
+
+        <!-- Work -->
+        <section id="testimonials" class="py-10 w-full h-full bg-white">
+            <div class="title w-full flex flex-col justify-start items-start py-5  sticky top-0 bg-white">
+                <span class="text-4xl">Client</span>
+                <div class="heading w-full flex justify-start items-center gap-10">
+                    <h1 class="text-[4rem] font-bold">Testimonials</h1>
+                    <span class="w-full h-[8px] bg-black "></span>
+                    <h1 class="text-[4rem] font-bold">works</h1>
+                </div>
+            </div>
+            <div class="work mt-20">
+                <div class="mumbai">
+                    <div class="title">
+                        <h2 class="text-5xl font-medium mb-[4px]">Britannia</h2>
+                        <h2 class="text-2xl tracking-wider">2025 <span class="text-3xl">→</span> Mumbai</h2>
+                    </div>
+                    <img class="my-[4px]" src="./assets/four.jpg" alt="">
+                </div>
+            </div>
+            <div class="work mt-20 flex gap-20">
+                <div class="indore w-2/5">
+                    <div class="title">
+                        <h2 class="text-5xl font-medium mb-[4px]">Britannia</h2>
+                        <h2 class="text-2xl tracking-wider">2025 <span class="text-3xl">→</span> Mumbai</h2>
+                    </div>
+                    <img class="my-[4px]" src="./assets/one.jpg" alt="">
+                </div>
+                <div class="dubai w-3/5 mt-20">
+                    <div class="title">
+                        <h2 class="text-5xl font-medium mb-[4px]">Britannia</h2>
+                        <h2 class="text-2xl tracking-wider">2025 <span class="text-3xl">→</span> Mumbai</h2>
+                    </div>
+                    <img class="my-[4px]" src="./assets/three.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-40 pb-[5px] flex justify-between items-center">
+            <h4 class="font-medium">Aman <span class="opacity-50">Shrivas</span></h4>
+            <h4 class="font-medium">February 24, 2025 <span class="opacity-50">[22:56 PM]</span></h4>
+        </footer>
+        
+
+    </div>
+</body>
+</html>
